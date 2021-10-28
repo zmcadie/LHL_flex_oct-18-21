@@ -1,4 +1,7 @@
 # Module 1 — The Dev Workflow
+
+* [Lecture recording](https://us02web.zoom.us/rec/share/mIrz9Ry-075CoxQ78NaKS-kxy-sWU-U-V7DdCgt0Nqmzg6gbOmErRjnLdYFtaWjQ.3zshZ_QjlybQhRhN?startTime=1634836195000)
+
 > Most lectures will include live coding. Don't try to replicate the code, instead pay attention and collaborate by answering and asking questions. When you don't understand something make a note to research it later or raise your hand/ask in the chat.
 
 ## Overview
