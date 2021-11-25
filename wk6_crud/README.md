@@ -22,6 +22,13 @@ CRUD is an acronym that represents the different actions we can perform in our w
 | Update | PUT    |
 | Delete | DELETE |
 
+### BREAD
+* Browse
+* Read
+* Edit
+* Add
+* Delete
+
 ## Creating an Express app
 Express is a minimal Node.js framework for web apps. Express allows us to easily implement middleware and routing functions in our server.
 

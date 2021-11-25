@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <h1>Pokédex</h1>
+    <ol>
+      <% for (const pokemon of pokedex) { %>
+        <li>
+          <a href="/pokedex/<%= pokemon.id %>"><%= pokemon.name.english %></a>
+        </li>
+      <% } %>
+    </ol>
+  </body>
+</html>

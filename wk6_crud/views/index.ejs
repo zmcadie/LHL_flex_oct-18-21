@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokedex Homepage</title>
+
+    <link rel="stylesheet" href="/styles/index.css">
+  </head>
+  <body>
+    <a href="/pokedex">Go to the Pokedex!</a>
+
+    <h1>Find a Pokémon</h1>
+    <form action="/pokedex" method="get">
+      <label for="pokemon-select">Select a Pokémon</label>
+      <select name="pokemon" id="pokemon-select">
+        <% for (const pokemon of pokedex) { %>
+          <option value="<%= pokemon.id %>"><%= pokemon.name.english %></option>
+        <% } %>
+      </select>
+      <button type="submit">Find the Pokémon</button>
+    </form>
+  </body>
+</html>
