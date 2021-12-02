@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+<h1>Register</h1>
+<% if (locals.errors) { %> 
+  <ul class="errors-list">
+    <% errors.forEach(err => { %>
+      <li><%= err.msg %></li>
+    <% }) %>
+  </ul>
+<% } %>
+<form method="post" action="/users/register">
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email">
+  <label for="password">Password</label>
+  <input id="password" name="password" type="password">
+  <label for="password">Confirm Password</label>
+  <input id="passConfirm" name="passConfirm" type="password">
+  <button type="submit">Register</button>
+</form>
+
+<%- include('partials/footer') %>

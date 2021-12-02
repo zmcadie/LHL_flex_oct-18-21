@@ -1,0 +1,7 @@
+<%- include('partials/header') %>
+
+<h1><%= pokemon.name.english %></h1>
+<img src="https://github.com/fanzeyi/pokemon.json/blob/master/images/<%= ("00" + pokemon.id).slice(-3) %>.png?raw=true">
+<div>Type: <%= pokemon.type %> </div>
+
+<%- include('partials/footer') %>

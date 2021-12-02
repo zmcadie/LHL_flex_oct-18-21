@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+
+<h1>Pokédex</h1>
+<ol>
+  <% for (const pokemon of pokedex) { %>
+    <li>
+      <a href="/pokedex/<%= pokemon.id %>"><%= pokemon.name.english %></a>
+    </li>
+  <% } %>
+</ol>
+
+<%- include('partials/footer') %>
